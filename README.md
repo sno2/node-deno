@@ -11,6 +11,14 @@ const { Deno } = require("node-deno");
 console.log(Deno.build.os);
 ```
 
+### Polyfilling
+
+If you would like to use `node-deno` to polyfill `Deno` into your plain JS projects to be ran on either runtime, then just include the following code at the top of your scripts:
+
+```js
+!globalThis.Deno && (global.Deno = require(".").Deno);
+```
+
 ## Contributing
 
 1. `npm install`
