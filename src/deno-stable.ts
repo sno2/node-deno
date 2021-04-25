@@ -23,7 +23,7 @@ export abstract class Deno {
 
   static env = core.env.Env;
 
-  static execPath = core.getExecPath();
+  static execPath = core.execPath;
 
   static chdir(directory: string) {
     process.chdir(directory);
