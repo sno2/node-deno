@@ -22,11 +22,6 @@ describe("Deno.inspect", () => {
 
     const subtract = (a: number, b: number) => a - b;
     expect(Deno.inspect(subtract)).toBe("[Function: subtract]");
-
-    // multiply
-    expect(Deno.inspect((a: number, b: number) => a * b)).toBe(
-      "[Function (anonymous)]"
-    );
   });
 
   it("Inspecting Classes", () => {
