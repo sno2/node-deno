@@ -1,4 +1,4 @@
-import { Deno as StableDeno } from "./deno-stable";
+import { Deno as StableDeno } from "./stable";
 import type { ConsoleSize } from "./models/console-size";
 
 import os from "os";
