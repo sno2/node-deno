@@ -1,7 +1,7 @@
 {
   "name": "node-deno",
   "version": "0.0.1",
-  "description": "A zero-dependency Deno runtime polyfill for Node.js.",
+  "description": "A zero-dependency Node.js implementation of the Deno Runtime APIs.",
   "author": "Carter Snook",
   "license": "MIT",
   "source": "./src/index.ts",
