@@ -28,3 +28,4 @@ export * from "./exec-path";
 export * from "./cwd";
 export * from "./chmod";
 export * from "./chown";
+export * from "./chdir";

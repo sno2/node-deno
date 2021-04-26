@@ -25,9 +25,7 @@ export abstract class Deno {
 
   static execPath = core.execPath;
 
-  static chdir(directory: string) {
-    process.chdir(directory);
-  }
+  static chdir = core.chdir;
 
   static cwd = core.cwd;
 
