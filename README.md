@@ -4,6 +4,8 @@ A zero-dependency Node.js implementation of the Deno Runtime APIs.
 
 > This library is currently under development and its API is subject to change with most of the tests still unimplemented.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J24FKID)
+
 ## Usage
 
 ```ts
