@@ -1,5 +1,7 @@
 # node-deno
 
+> This library is now archived due to [`deno.ns`](https://www.npmjs.com/package/deno.ns) reproducing its behavior completely and `deno.ns` will be used in [`deno2node`](https://www.npmjs.com/package/deno2node) which is what I was planning on making after I finished this project. Go check out those projects instead🙂
+
 A zero-dependency Node.js implementation of the Deno Runtime APIs.
 
 > This library is currently under development and its API is subject to change with most of the tests still unimplemented.
